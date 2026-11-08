@@ -1,0 +1,11 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+ultralytics==8.3.0        # YOLOv8 object detection (PyTorch backend)
+easyocr==1.7.2            # OCR for room numbers / signboards
+networkx==3.3             # graph-based path planning
+opencv-python==4.10.0.84
+pyttsx3==2.90             # offline text-to-speech
+SpeechRecognition==3.10.4 # speech-to-text for destination input
+pyaudio==0.2.14           # mic input for SpeechRecognition (see README for install notes)
+numpy<2.0
